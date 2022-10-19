@@ -16,6 +16,16 @@ if(document.querySelector(".header__search")) {
         $(".header__search").removeClass("active");
     });
 };
+if(document.querySelector(".mobile_search")) {
+    $(".mobile_search").click(function() {
+        $(".header__search__wrap").addClass("active");
+        $(".header__search").addClass("active");
+    });
+    $(".main").click(function() {
+        $(".header__search__wrap").removeClass("active");
+        $(".header__search").removeClass("active");
+    });
+};
 if(document.querySelector(".catalog_2__aside")) {
     $(".catalog_2__aside .item").click(function() {
         $(this).toggleClass("active");
