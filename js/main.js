@@ -8,6 +8,14 @@ if(document.querySelector(".header__search .input")) {
         };
     });
 };
+if(document.querySelector(".header__search")) {
+    $(".header__search").click(function() {
+        $(this).addClass("active");
+    });
+    $(".main").click(function() {
+        $(".header__search").removeClass("active");
+    });
+};
 if(document.querySelector(".catalog_2__aside")) {
     $(".catalog_2__aside .item").click(function() {
         $(this).toggleClass("active");
