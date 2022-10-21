@@ -1791,6 +1791,7 @@ ul, ol {
 }
 
 .cabinet__aside {
+  display: none;
   width: 275px;
 }
 .cabinet__aside .item {
@@ -1837,6 +1838,10 @@ ul, ol {
 }
 .cabinet__aside .item.active .icon svg path, .cabinet__aside .item:hover .icon svg path {
   fill: #159329;
+}
+
+.cabinet .cabinet__aside {
+  display: block;
 }
 
 .cabinet__content {
@@ -2566,6 +2571,10 @@ ul, ol {
 }
 
 @media screen and (max-width: 768px) {
+  .cabinet__aside {
+    display: block;
+  }
+
   .mobile_search {
     display: block;
     width: 20px;
@@ -2696,6 +2705,7 @@ ul, ol {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    padding-right: 12px;
   }
 
   .header {
@@ -2705,10 +2715,11 @@ ul, ol {
 
   .header__search__wrap {
     display: none;
-    width: 100%;
+    width: auto;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 72px;
+    left: 15px;
+    right: 15px;
     z-index: 9;
   }
 
@@ -2721,7 +2732,7 @@ ul, ol {
   }
 
   .header__search .input .text {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .header__search .input input {
@@ -2975,7 +2986,6 @@ ul, ol {
 
   .map {
     display: block;
-    height: 450px;
   }
 
   .pages {
