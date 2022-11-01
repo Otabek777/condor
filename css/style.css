@@ -2946,6 +2946,23 @@ ul, ol {
 }
 
 @media screen and (max-width: 768px) {
+  .product_img_modal {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-top: 70px;
+  }
+
+  .product_img_modal .img {
+    width: calc(100% - 30px);
+    height: 70%;
+  }
+
+  .product_img_modal .close {
+    right: 15px;
+    top: 20px;
+  }
+
   .catalog_3__tab .item {
     width: 100%;
     margin-right: 0;
