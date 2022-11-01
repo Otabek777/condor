@@ -36,3 +36,18 @@ if(document.querySelector(".accordion__title")) {
         $(this).toggleClass("active");
     });
 };
+if(document.querySelector(".product_amount")) {
+    var plus = $("#plus");
+    var minus = $("#minus");
+    var number = document.querySelector('#number_input');
+
+    minus.click(function() {
+        if(number.value == "1") {
+        }else {
+            number.value--;
+        }
+    });
+    plus.click(function() {
+        number.value++;
+    });
+}
