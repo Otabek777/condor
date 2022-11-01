@@ -242,6 +242,16 @@
                 </li>
             </ul>
         </div>
+        <div class="product_img_modal">
+            <button class="close close-x">
+                <span></span>
+                <span></span>
+            </button>
+            <div class="close-bg close-x"></div>
+            <div class="img">
+                <img src="" alt="">
+            </div>
+        </div>
         <section class="product_page">
             <div class="container">
                 <div class="title_h2">
@@ -347,13 +357,19 @@
                             <button class="btn">Добавить в корзину</button>
                         </div>
                         <div class="popular__tab">
-                            <button class="btn">Описание</button>
-                            <button class="btn active">Оплата</button>
-                            <button class="btn">Доставка</button>
+                            <button class="btn tab-btn-all" id="tab-btn-1">Описание</button>
+                            <button class="btn tab-btn-all active" id="tab-btn-2">Оплата</button>
+                            <button class="btn tab-btn-all" id="tab-btn-3">Доставка</button>
                         </div>
-                        <div class="block">
+                        <div class="block tab-block-all" id="tab-block-1">
+                            <p class="text">Описание</p>
+                        </div>
+                        <div class="block tab-block-all active" id="tab-block-2">
                             <p class="text">Оплатить заказ можно как безналичным переводом на расчетный счет в банке, так и наличными в кассу. При оформлении заказа требуется предоплата в размере 100%. Действует индивидуальная система скидок.</p>
                             <p class="text">Подробности оплаты товаров можно узнать в разделе <a href="#">Условия работы.</a></p>
+                        </div>
+                        <div class="block tab-block-all" id="tab-block-3">
+                            <p class="text">Доставка</p>
                         </div>
                     </div>
                 </div>

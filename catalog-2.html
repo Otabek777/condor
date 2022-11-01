@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title></title>
@@ -327,587 +329,616 @@
                             </div>
                         </div>
                         <div class="popular__tab">
-                            <button class="btn">Все товары</button>
-                            <button class="btn active">Бокоплавы Condor</button>
-                            <button class="btn">Балансиры Condor</button>
+                            <button class="btn tab-btn-all" id="tab-btn-1">Все товары</button>
+                            <button class="btn tab-btn-all active" id="tab-btn-2">Бокоплавы Condor</button>
+                            <button class="btn tab-btn-all" id="tab-btn-3">Балансиры Condor</button>
+                            <button class="btn tab-btn-all" id="tab-btn-4">Балансиры Condor</button>
+                            <button class="btn tab-btn-all" id="tab-btn-5">Балансиры Condor</button>
+                            <button class="btn tab-btn-all" id="tab-btn-6">Балансиры Condor</button>
+                            <button class="btn tab-btn-all" id="tab-btn-7">Балансиры Condor</button>
+                            <button class="btn tab-btn-all" id="tab-btn-8">Балансиры Condor</button>
                         </div>
-                        <div class="box">
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-2.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Cапоги зимние EVA-SHOES NordStar (-55)
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                        <div class="tab-block-all" id="tab-block-1">
+                            Все товары
+                        </div>
+                        <div class="tab-block-all active" id="tab-block-2">
+                            <div class="box">
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-2.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Cапоги зимние EVA-SHOES NordStar (-55)
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-3.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-3.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-4.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Подводная видеокамера F007MD-2L-15M
-                                    </a>
-                                    <p class="text">Шнур 15 м. с функцией записи</p>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-4.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Подводная видеокамера F007MD-2L-15M
+                                        </a>
+                                        <p class="text">Шнур 15 м. с функцией записи</p>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-5.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-5.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-2.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Cапоги зимние EVA-SHOES NordStar (-55)
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-2.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Cапоги зимние EVA-SHOES NordStar (-55)
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-3.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-3.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-4.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Подводная видеокамера F007MD-2L-15M
-                                    </a>
-                                    <p class="text">Шнур 15 м. с функцией записи</p>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-4.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Подводная видеокамера F007MD-2L-15M
+                                        </a>
+                                        <p class="text">Шнур 15 м. с функцией записи</p>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-5.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-5.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-2.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Cапоги зимние EVA-SHOES NordStar (-55)
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-2.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Cапоги зимние EVA-SHOES NordStar (-55)
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-3.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-3.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-4.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Подводная видеокамера F007MD-2L-15M
-                                    </a>
-                                    <p class="text">Шнур 15 м. с функцией записи</p>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-4.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Подводная видеокамера F007MD-2L-15M
+                                        </a>
+                                        <p class="text">Шнур 15 м. с функцией записи</p>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-5.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-5.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-2.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Cапоги зимние EVA-SHOES NordStar (-55)
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-2.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Cапоги зимние EVA-SHOES NordStar (-55)
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-3.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-3.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-4.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Подводная видеокамера F007MD-2L-15M
-                                    </a>
-                                    <p class="text">Шнур 15 м. с функцией записи</p>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-4.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Подводная видеокамера F007MD-2L-15M
+                                        </a>
+                                        <p class="text">Шнур 15 м. с функцией записи</p>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-5.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-5.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-2.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Cапоги зимние EVA-SHOES NordStar (-55)
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-2.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Cапоги зимние EVA-SHOES NordStar (-55)
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_stock">АКЦИЯ</span>
-                                <div class="img">
-                                    <img src="img/popular-3.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_stock">АКЦИЯ</span>
+                                    <div class="img">
+                                        <img src="img/popular-3.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-4.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Подводная видеокамера F007MD-2L-15M
-                                    </a>
-                                    <p class="text">Шнур 15 м. с функцией записи</p>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-4.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Подводная видеокамера F007MD-2L-15M
+                                        </a>
+                                        <p class="text">Шнур 15 м. с функцией записи</p>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="popular__block">
-                                <span class="s_new">НОВИНКА</span>
-                                <div class="img">
-                                    <img src="img/popular-5.png" alt="">
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">
-                                        Воблер KYODA SHARP MINNOW-75F
-                                    </a>
-                                    <ul class="characteristics">
-                                        <li>
-                                            <p class="left">Длина</p>
-                                            <p class="right">7.5 см</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Вес</p>
-                                            <p class="right">12.0 гр</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цвет</p>
-                                            <p class="right">P1575</p>
-                                        </li>
-                                        <li>
-                                            <p class="left">Цаглубление</p>
-                                            <p class="right">1.5-4 м</p>
-                                        </li>
-                                    </ul>
-                                    <div class="box">
-                                        <p class="price">114 655 ₽</p>
-                                        <button class="btn2">В корзину</button>
+                                <div class="popular__block">
+                                    <span class="s_new">НОВИНКА</span>
+                                    <div class="img">
+                                        <img src="img/popular-5.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">
+                                            Воблер KYODA SHARP MINNOW-75F
+                                        </a>
+                                        <ul class="characteristics">
+                                            <li>
+                                                <p class="left">Длина</p>
+                                                <p class="right">7.5 см</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Вес</p>
+                                                <p class="right">12.0 гр</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цвет</p>
+                                                <p class="right">P1575</p>
+                                            </li>
+                                            <li>
+                                                <p class="left">Цаглубление</p>
+                                                <p class="right">1.5-4 м</p>
+                                            </li>
+                                        </ul>
+                                        <div class="box">
+                                            <p class="price">114 655 ₽</p>
+                                            <button class="btn2">В корзину</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="tab-block-all" id="tab-block-3">
+                            Балансиры Condor
+                        </div>
+                        <div class="tab-block-all" id="tab-block-4">
+                            Балансиры Condor2
+                        </div>
+                        <div class="tab-block-all" id="tab-block-5">
+                            Балансиры Condor3
+                        </div>
+                        <div class="tab-block-all" id="tab-block-6">
+                            Балансиры Condor4
+                        </div>
+                        <div class="tab-block-all" id="tab-block-7">
+                            Балансиры Condor5
+                        </div>
+                        <div class="tab-block-all" id="tab-block-8">
+                            Балансиры Condor6
+                        </div>
+                        
                         <div class="paginator">
                             <a href="#" class="link active">1</a>
                             <a href="#" class="link">2</a>
@@ -979,6 +1010,16 @@
     </footer>
     
     <script src="js/jquery.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $('.popular__tab').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            variableWidth: true,
+            arrows: true
+        });
+    </script>
 </body>
 </html>

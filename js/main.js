@@ -50,4 +50,42 @@ if(document.querySelector(".product_amount")) {
     plus.click(function() {
         number.value++;
     });
-}
+};
+
+// Tab
+function tabFun(num) {
+    if(document.querySelector("#tab-btn-" + num)) {
+        $("#tab-btn-" + num).click(function() {
+            $(".tab-btn-all").removeClass("active");
+            $(".tab-block-all").removeClass("active");
+            $(this).addClass("active");
+            $("#tab-block-" + num).addClass("active");
+        });
+    };
+};
+tabFun("1");
+tabFun("2");
+tabFun("3");
+tabFun("4");
+tabFun("5");
+tabFun("6");
+tabFun("7");
+tabFun("8");
+tabFun("9");
+tabFun("10");
+if(document.querySelector(".product_page__images .search")){
+    $(".product_page__images .search").click(function() {
+        var imgSrc = $(".wrap.slick-slide.slick-current.slick-active img").attr('src');
+        $(".product_img_modal .img img").attr('src', imgSrc);
+        $(".product_img_modal").addClass("active");
+        setTimeout(function() {
+            $(".product_img_modal").addClass("opacity");
+        }, 01);
+    });
+    $(".product_img_modal .close-x").click(function() {
+        $(".product_img_modal").removeClass("opacity");
+        setTimeout(function() {
+            $(".product_img_modal").removeClass("active");
+        }, 500);
+    });
+};
