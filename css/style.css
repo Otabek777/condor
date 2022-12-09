@@ -851,8 +851,8 @@ ul, ol {
 }
 .banner__wrap .back .ribbon .block .banner-img {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 52%;
+  left: 48%;
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
           transform: translate(-50%, -50%) rotate(45deg);
   opacity: 0;
